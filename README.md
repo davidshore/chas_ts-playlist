@@ -34,6 +34,8 @@ npx tsc --init
 Ändra följande i `tsconfig.json`:
 
 ```json
+"target": "ES2020",
+"module": "ESNext",
 "rootDir": "./src",
 "outDir": "./dist",
 "strict": true,
